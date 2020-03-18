@@ -9,7 +9,7 @@
     'use strict';
 /*
 =============================
-	Configure Options & Files 
+	Configure Options & Files
 =============================
 */
     var File_Name = 'jekyll-applin.zip';
@@ -22,22 +22,22 @@
 		'./assets/css/custom-animation.css',
 		'./assets/css/slimmenu.min.css',
 		'./assets/css/swiper.min.css'
-		
+
     ];
     var JS_Files = [
         './assets/js/jquery.min.js',
-        './assets/js/bootstrap.min.js',  
+        './assets/js/bootstrap.min.js',
 		'./assets/js/jquery.easing.min.js',
 		'./assets/js/slimmenu.min.js',
 		'./assets/js/aos.min.js',
 		'./assets/js/highlight.pack.js',
 		'./assets/js/owl.carousel.min.js',
 		'./assets/js/owl.carousel.thumbs.min.js',
-		'./assets/js/swiper.min.js',		
-		'./assets/js/app.js'	
+		'./assets/js/swiper.min.js',
+		'./assets/js/app.js'
     ];
-	
-	
+
+
 /*
 =============================
 	Include Gulp & Plugins
@@ -48,7 +48,7 @@
 		sass 			= require('gulp-sass'),
 		cleanCSS 		= require('gulp-clean-css'),
 		autoprefixer 	= require('gulp-autoprefixer'),
-		concat 			= require('gulp-concat'),		
+		concat 			= require('gulp-concat'),
 		rename 			= require('gulp-rename'),
 		uglify 			= require('gulp-uglify'),
 		terser 			= require('gulp-terser'),
@@ -61,13 +61,13 @@
 		del 			= require('del'),
 		gulpCopy 		= require('gulp-copy'),
 		runSequence 	= require('run-sequence'),
-		inject 			= require('gulp-inject')
+		inject 			= require('gulp-inject');
 //		fs 				= require('fs');
-		
+
 		sass.compiler = require('node-sass');
-			
-  
- 
+
+
+
     gulp.task('clean-production', function() {
         return del('dist/**/**', {
             force: true
@@ -87,7 +87,7 @@
 
         done();
     });
-	
+
     gulp.task('copy_all_files', function(done) {
         return gulp.src([
                 './**/*',
@@ -115,8 +115,8 @@
     });
 
 
- 
-	
+
+
     gulp.task('production-zip', function(done) {
         gulp.src([
                 './dist/production/**/*',
@@ -191,7 +191,7 @@
                 '.jshintignore',
                 '.jshintrc',
                 '!.gitattributes',
-                '!./_site/**',		
+                '!./_site/**',
                 '!README.md',
                 '!.gitignore',
                 '!.Gemfile.lock',
@@ -227,7 +227,7 @@
         gulp.series('clean-production', 'copy_all_files', 'copy_css_files', 'copy_js_files', 'production-zip', 'zip')
     );
 
- 
+
 
     gulp.task(
         'default',

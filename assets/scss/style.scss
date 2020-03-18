@@ -21,13 +21,13 @@ TABLE INDEX
 ===========================
 */
 
-// All 	SCSS 
+// All 	SCSS
 @import 'base/fonts';
 @import 'base/variables';
 @import 'base/reset';
 @import 'base/functions';
 @import 'base/typography';
- 
+
 
 /* ==============================================
 
@@ -35,16 +35,16 @@ TABLE INDEX
 
 ============================================== */
 .bg-color1{
-   background-color: $bg-color1; 
+   background-color: $bg-color1;
 }
 .bg-color2{
-   background-color: $bg-color2; 
+   background-color: $bg-color2;
 }
 .bg-color3{
-   background-color: $bg-color3; 
+   background-color: $bg-color3;
 }
 .bg-color4{
-   background-color: $bg-color4; 
+   background-color: $bg-color4;
 }
 .bg-overlay:before{
 	content:'';
@@ -76,22 +76,22 @@ div[class*="-wrapper"]{
 
 ============================================== */
 .bg-image1{
-   background: $bg-color1 url("../images/watch-video-bg.jpg") no-repeat fixed center/cover; 
+   background: $bg-color1 url("../images/watch-video-bg.jpg") no-repeat fixed center/cover;
 }
 
 .bg-image2{
-   background: $bg-color1 url("../images/bg-image1.jpg") no-repeat fixed center/cover; 
+   background: $bg-color1 url("../images/bg-image1.jpg") no-repeat fixed center/cover;
 }
 
 .bg-image3{
-   background: $bg-color1 url("../images/watch-video-bg.jpg") no-repeat fixed center/cover; 
+   background: $bg-color1 url("../images/watch-video-bg.jpg") no-repeat fixed center/cover;
 }
 
 
 
 /* ==============================================
 
-3. Form & Button
+3. Form & Button 
 
 ============================================== */
 form,
@@ -103,13 +103,13 @@ fieldset {
 input[type='text'],
 input[type='tel'],
 input[type='email'],
-input[type='search'], 
-input[type='password'], 
+input[type='search'],
+input[type='password'],
 textarea[class],select {
    transition:$transition-base;
    @include form-size(
       inherit,($form-space-v + 5),($form-space-h - 10),$form-radius
-  ) 
+  )
   @include form-variant(
       inherit,transparent,$form-border, inherit,$form-change-bg,$form-change-border2
   )
@@ -124,16 +124,16 @@ input[type='submit'] {
   transition:$transition-base;
   @include form-size(
       $form-size,$form-space-v,$form-space-h,$form-radius
-  ) 
+  )
   @include form-variant(
       $form-color,$form-bg2,$form-border2, $form-change-color2,$form-change-bg3,$form-change-border2
   )
-  
+
 }
 .ads-btn1{
   @include form-size(
       $form-size2,$form-space-v + 6, $form-space-v + 10,$form-radius
-  ) 
+  )
   @include form-variant(
       $form-color2,$form-bg,$form-border3, $form-change-color,$form-bg2,$form-change-border2
   )
@@ -149,7 +149,7 @@ input[type='submit'] {
 .ads-btn2{
   @include form-size(
       $form-size2,$form-space-v + 5, $form-space-v + 10,$form-radius
-  ) 
+  )
   @include form-variant(
       $form-color,transparent,$form-border3, $form-change-color,$form-bg2,$form-change-border2
   )
@@ -167,7 +167,7 @@ input[type='submit'] {
 .ads-btn3{
   @include form-size(
       $form-size2,$form-space-v + 6, $form-space-v + 20,$form-radius
-  ) 
+  )
   @include form-variant(
       $form-color3,$form-bg3,$form-border4, $form-color,$form-bg2,$form-border3
   )
@@ -190,7 +190,7 @@ input[type='submit'] {
 .ads-btn4{
   @include form-size(
       $form-size2,$form-space-v + 5, $form-space-v + 20,$form-radius
-  ) 
+  )
   @include form-variant(
       $form-color,$form-bg4,$form-border5, $form-color,$form-bg2,$form-border
   )
@@ -217,13 +217,13 @@ input[type='submit'] {
 4. Section & Inner Title
 
 ============================================== */
-.section-title{ 
+.section-title{
     position: relative;
     bottom: 9px;
 	h2{
 		margin-bottom:$inner-60;
 		font-weight:$font-weight-semibold;
-		
+
 		@include tablet{
 		    margin-bottom:20px;
 		}
@@ -231,12 +231,12 @@ input[type='submit'] {
 	p{
 		margin:0;
 	}
-	
+
 	@include tablet{
 	  bottom:0px;
 	}
 }
-.inner-title{ 
+.inner-title{
     margin-bottom:$inner-30 - 10px;
 	h3,h4,h5,h6{
 	   margin:0;
@@ -267,7 +267,7 @@ input[type='submit'] {
     bottom: 60%;
     right: 10%;
     animation: animationFramesFour  20s infinite linear;
-	}	
+	}
 	.shape-four{
 	 position: absolute;
         bottom: 10%;
@@ -327,7 +327,7 @@ input[type='submit'] {
      position: relative;
 	 @include desktop{
 	    padding:100px 0px 0px 0px;
-	 } 
+	 }
 	 @include laptop{
 	    padding:40px 0px 100px 0px;
 	 }
@@ -353,14 +353,14 @@ input[type='submit'] {
    }
    @include laptop{
       margin:0;
-   } 
+   }
    @include tablet{
       margin:0;
    }
-   
+
 &:before{
     bottom: -210px;
-	
+
 	@include desktop{
 	    bottom: -170px;
 	}
@@ -371,9 +371,9 @@ input[type='submit'] {
 	    bottom: -170px;
 	}
   }
-   
+
    .header-page-title{
-       
+
        @include laptop{
 	      padding-top: 90px;
 	   }
@@ -381,13 +381,13 @@ input[type='submit'] {
 	      padding-top: 50px;
 	   }
    }
-   
-   
+
+
    .header-shape {
       .left {
 		left: -190px;
 		top: -770px;
-		
+
 		@include desktop{
     left: -100px;
     top: -305px;
@@ -403,7 +403,7 @@ input[type='submit'] {
 			top: -220px;
 			width: 470px;
 		}
-		
+
 	}
 	.right {
     right: -600px;
@@ -436,7 +436,7 @@ input[type='submit'] {
 	position:absolute;
     left: -190px;
     top: -690px;
-	
+
 	@include desktop{
     left: -140px;
     top: -220px;
@@ -464,18 +464,18 @@ input[type='submit'] {
     width: 480px;
 	}
 	}
-	
+
 	img{
 	    max-width:100%;
 	}
-	
+
 	@include tablet{
 	    display:none;
 	}
 }
 .header-nav{
    padding-top:$inner-70;
-   
+
    @include laptop{
       padding-top:$inner-30;
    }
@@ -494,17 +494,17 @@ input[type='submit'] {
 	   padding:15px 0;
 	   float:left;
 	}
-	
+
    .themeix-navbar{
       float:right;
 	  @include laptop{
 	      float:none;
-	  } 
+	  }
 	  @include tablet{
 	      float:none;
 	  }
-   }	
-  
+   }
+
 .main-menu {
    @include laptop{
    position:absolute;
@@ -514,7 +514,7 @@ input[type='submit'] {
    box-shadow:$box-shadow;
    border-radius:$border-radius;
    top: 0;
-   }  
+   }
    @include tablet{
    position:absolute;
    left:0;
@@ -525,16 +525,16 @@ input[type='submit'] {
    top: 0;
    }
    li{
-   
+
    border: 0 !important;
   background-color: transparent;
   a {
     padding: 15px 15px 15px 15px;
     color: $font-color4;
-	
+
 	@include laptop{
 	   color:$font-color-base;
-	}	
+	}
 	@include tablet{
 	   color:$font-color-base;
 	}
@@ -547,7 +547,7 @@ input[type='submit'] {
       a {
         color: $font-color-base;
         padding: 10px 15px;
-		
+
 		transition:$transition-base;
         &:hover {
           text-indent: 2px;
@@ -598,13 +598,13 @@ input[type='submit'] {
     &:hover, &:focus {
       background-color: transparent;
       color: $font-color4;
-	  
+
 	  @include laptop{
 	     color: $link-color;
-	  } 
+	  }
 	  @include tablet{
 	     color: $link-color;
-	  } 
+	  }
     }
   }
   .sub-toggle i {
@@ -618,9 +618,9 @@ input[type='submit'] {
       float: none;
       display: block;
     }
-  }  
+  }
    }
-  
+
 }
 .menu-collapser{
    .collapse-button{
@@ -684,15 +684,15 @@ input[type='submit'] {
 	   padding-right:$inner-30;
 	   position:relative;
 	   z-index:2;
-	 	   
+
 	   @include laptop{
 	      padding-right:0;
-	   }  
+	   }
 	   @include tablet{
 	      padding-right:0;
 	   }
 	}
-	
+
 	.banner-mockup{
 	  z-index:2;
 	   position:absolute;
@@ -703,10 +703,10 @@ input[type='submit'] {
 		animation-iteration-count: 1, infinite;
 		animation-fill-mode: forwards;
 		animation-direction: normal, alternate;
-		
+
 		@include tablet{
 	  display:none;
-	  
+
 	}
 	@include desktop{
 	   margin:0;
@@ -727,7 +727,7 @@ input[type='submit'] {
 		  &:last-child{
 		     margin:0;
 		  }
-		  
+
 		  @include mobile{
 			  display:block;
 			  margin-right:0;
@@ -805,15 +805,15 @@ input[type='submit'] {
 		display:block;
         text-align:center;
         vertical-align:middle;
-        margin:auto auto $inner-30;	
+        margin:auto auto $inner-30;
 		transition:$transition-base;
 		img {
 			max-height: 40px;
 		}
-		
+
 	}
 	.service-content{
-		
+
 		h5,h4,h3{margin-bottom:20px;}
 		p{ margin-bottom:$inner-30; }
 	}
@@ -823,13 +823,13 @@ input[type='submit'] {
 		height:70px;
 		display:block;
 		top:0;
-		margin:auto auto 0;	
+		margin:auto auto 0;
 		transition:$transition-base;
 	}
 	&:hover{
 		.service-logo{
 			box-shadow:$box-shadow;
-			
+
 		}
 		.service-line{
 			top: -15px;
@@ -875,7 +875,7 @@ input[type='submit'] {
 		position:absolute;
 		top:50px;
 		left:30px;
-		
+
 		@include laptop{
 		    display:none;
 		}
@@ -896,13 +896,13 @@ input[type='submit'] {
 	}
 	.feature-content{
 		h3,h4,h5{
-			
+
 			margin-bottom:$inner-30 - 10;
 		}
 		p{
 			margin:0;
 		}
-		 
+
 	}
 	.feature-shape{
 		width: 100%;
@@ -951,14 +951,14 @@ input[type='submit'] {
 		    margin-bottom:20px;
 		}
 	}
-	
+
 	.image-mockup{
-		
+
 		@include tablet{
 		  max-width:100%;
 		}
 	}
-	
+
 }
 
 
@@ -979,7 +979,7 @@ input[type='submit'] {
 	   margin-top:0;
 	   margin-bottom:30px;
 	   padding-right:15px;
-	}	
+	}
 	@include tablet {
 	   margin-top:0;
 	   margin-bottom:30px;
@@ -1026,7 +1026,7 @@ input[type='submit'] {
 }
 }
 .watch-video-content{
-	
+
 	.watch-video-top{
 		background-color:$bg-color3;
 		border-top-left-radius:$border-radius;
@@ -1045,11 +1045,11 @@ input[type='submit'] {
 	    background-color:$bg-color1;
 		padding:$inner-50 $inner-60;
 		p{ margin:0; }
-		
+
 		@include tablet{
 		   padding:30px;
 		}
-		
+
 	}
 	@include laptop{
 	   padding-left:15px;
@@ -1057,11 +1057,11 @@ input[type='submit'] {
 	@include tablet{
 	   padding-left:15px;
 	}
-	
+
 }
 .watch-arrow{
 	margin:20px;
-	
+
 	@include laptop{
 	   display:none;
 	}
@@ -1143,9 +1143,9 @@ input[type='submit'] {
 	img{
 		z-index:2;
 		position:relative;
-		
+
 		@include tablet{
-		
+
 		   max-width:100%;
 		}
 	}
@@ -1161,7 +1161,7 @@ input[type='submit'] {
 	     display:block;
 		 float:none;
 		 margin-right:0 !important;
-		 
+
 		 a{
 		    width:100%;
 		 }
@@ -1169,10 +1169,10 @@ input[type='submit'] {
    }
 }
 .shape-six{
-	
+
     bottom: 0;
     right: -650px;
-	
+
 	@include desktop{
 		right: -350px;
 	}	@include laptop{
@@ -1223,7 +1223,7 @@ input[type='submit'] {
 		opacity:0;
 		transition:$transition-base;
 		}
-		
+
 	}
 	.active{
 		&:before{
@@ -1231,17 +1231,17 @@ input[type='submit'] {
 		}
 	}
 	li:nth-child(1){
-      
+
     left: -270px;
     top: -267px;
-	 
+
 	 @include laptop{
 	     left: -150px;
 	 }
 
 	}
 	li:nth-child(2){
-      
+
     left: 270px;
     top: -180px;
 	@include laptop{
@@ -1250,10 +1250,10 @@ input[type='submit'] {
 
 	}
 	li:nth-child(3){
-     
+
     left: -270px;
     top: 120px;
-	
+
 	@include laptop{
 	       left: -145px;
            top: 220px;
@@ -1261,18 +1261,18 @@ input[type='submit'] {
 
 	}
 	li:nth-child(4){
-       
+
     right: -210px;
     top: 270px;
 
-		
+
 
 	}
 	li:nth-child(5){
-     
+
 		  width:60px;
 		height:60px;
-		
+
 		img{
 			width:60px;
 			height:60px;
@@ -1364,7 +1364,7 @@ input[type='submit'] {
 		   margin-right:10px;
 		   border-radius:$round-radius;
 		   background-color:$bg-color4;
-		}	    
+		}
 		.owl-dot.active{
 		   background-color:$bg-color2;
 		}
@@ -1412,7 +1412,7 @@ input[type='submit'] {
 			background-color:$bg-color2;
 			float:left;
 	     	p{
-				@include font-size($big-size1); 
+				@include font-size($big-size1);
 				font-weight:$font-weight-light;
 				color:$font-color4;
 				margin: 6px 0px;
@@ -1440,15 +1440,15 @@ input[type='submit'] {
 				color:$font-color2;
 				margin: 0;
 			}
-			
+
 			@include laptop{
 			    width: calc(100% - 100px);
 			}
 		}
-		
+
 	}
 	.price-content{
-		
+
 	     background-color:$bg-color1;
 		 padding:$inner-50 $inner-30 $inner-60;
 		.price-list{
@@ -1460,7 +1460,7 @@ input[type='submit'] {
 		.price-btn{
 			  @include form-size(
 				  $form-size,$form-space-v + 5,$form-space-h + 10,$form-radius
-			  ) 
+			  )
 			  @include form-variant(
 				  $form-color,$bg-color2,$form-border2, $form-change-color2,$form-change-bg,$form-change-border2
 			  )
@@ -1468,8 +1468,8 @@ input[type='submit'] {
 			      width:100%;
 			  }
 		}
-		
-		
+
+
 		@include laptop{
 		    padding: 30px 15px;
 		}
@@ -1488,13 +1488,13 @@ input[type='submit'] {
 
 ============================================== */
 .blog-area{
-	
+
 	.all-view-btn{
-		
+
     position: absolute;
     bottom: 60px;
     right: 15px;
-	
+
 	@include tablet{
 	  display:none;
   }
@@ -1528,7 +1528,7 @@ input[type='submit'] {
 		top:0;
 		right:-30px;
 		margin-top:-150px;
-		
+
 		@include tablet{
 		    margin: 0;
 			position: relative;
@@ -1542,7 +1542,7 @@ input[type='submit'] {
 			width: 100%;
 			margin-top: 15px;
 			padding: 30px 15px;
-		}	
+		}
 		@include desktop{
 		 		     margin: 0;
 			position: relative;
@@ -1624,7 +1624,7 @@ input[type='submit'] {
 			}
 		}
 	}
-	
+
 	.post-desc{
 		h5{
 			margin-bottom:$inner-30;
@@ -1640,7 +1640,7 @@ input[type='submit'] {
 			    color:$font-color2;
 			 }
 		}
-		
+
 	}
 }
 .reverse-loop>.row>.col-md-6:nth-child(4n + 2) .blog-post,
@@ -1650,7 +1650,7 @@ input[type='submit'] {
    .post-img{
         position:absolute;
 		bottom: 0;
-		
+
 		@include desktop{
 		    position:relative;
 		}@include laptop{
@@ -1680,11 +1680,11 @@ input[type='submit'] {
 	@include form-size(
       inherit,($form-space-v + 5),($form-space-h + 10),$form-radius
   )
-box-shadow:$box-shadow-deep;  
+box-shadow:$box-shadow-deep;
   @include form-variant(
       $form-color2,$form-bg,$form-border4, inherit,$form-change-bg,$form-change-border2
   )
-  
+
 }
 .author-post{
     text-align:center;
@@ -1748,7 +1748,7 @@ box-shadow:$box-shadow-deep;
 		}
 	}
 }
-.entry-content{ 
+.entry-content{
    .first-word{
 	   font-size:70px;
 	   color:#b3cefc;
@@ -1760,19 +1760,19 @@ box-shadow:$box-shadow-deep;
    }
    .list-dot{
 	   li:before{
-		  font-family: "Font Awesome 5 Free"; 
-		  font-weight: 400; 
-		  content: "\f111";	 
+		  font-family: "Font Awesome 5 Free";
+		  font-weight: 400;
+		  content: "\f111";
           margin-right:15px;
           font-size:12px;
-          color:$font-color3;		  
+          color:$font-color3;
 	   }
    }
 	blockquote{
 		 @include font-size($h5-font-size);
 		 font-style:italic;
 		 margin:$inner-30 0;
-		 
+
 	}
 }
 .blog-post-tags-area li {
@@ -1810,7 +1810,7 @@ box-shadow:$box-shadow-deep;
 			   color:$font-color-base;
 			   &:hover{
 			      color:$font-color3;
-			   } 
+			   }
 			}
 		 }
 	  }
@@ -1850,11 +1850,11 @@ box-shadow:$box-shadow-deep;
 		float:left;
 		.social-link{
 		    margin:0;
-			
+
 			li a{
 			   color:$font-color-base;
 			   @include font-size($small-font-size);
-			   
+
 			}
 		 }
    }
@@ -1890,7 +1890,7 @@ box-shadow:$box-shadow-deep;
 		   border-bottom-left-radius:$border-radius;
 		   border-bottom-right-radius:$border-radius;
 		   border:$form-border4;
-		   
+
 	   }
    }
    .blog-latest:hover{
@@ -1922,7 +1922,7 @@ box-shadow:$box-shadow-deep;
 	  float:left;
 	  border-radius:$round-radius;
 	  box-shadow:$box-shadow;
-   }  
+   }
    .owl-nav button.owl-next{
       border:transparent;
 	  background-color:$bg-color3;
@@ -1941,7 +1941,7 @@ box-shadow:$box-shadow-deep;
    .comments-box{
      display:table;
 	 width:100%;
-	 
+
      .comment-avatar{
 	    width:65px;
 		height:65px;
@@ -1974,7 +1974,7 @@ box-shadow:$box-shadow-deep;
 	   padding-bottom:0;
    }
    .modal-body{
-	   
+
    }
    [type="button"]{
 	   &:hover{
@@ -1984,7 +1984,7 @@ box-shadow:$box-shadow-deep;
 }
 .blog-spacing{
     margin-bottom:$inner-60;
-	
+
 	@include laptop{
 	    margin-bottom:$inner-30;
 	}
@@ -2015,7 +2015,7 @@ box-shadow:$box-shadow-deep;
    input{
 	 @include form-size(
 		  $form-size,$form-space-v + 5 ,$form-space-h,none
-	  ) 
+	  )
 	@include form-variant(
 		  $form-color2,transparent,none, $form-color2,transparent,none
 	  )
@@ -2026,7 +2026,7 @@ button{
 	  )
 	   @include form-size(
 		  $form-size,$form-space-v,$form-space-h,$form-radius
-	  ) 
+	  )
 }
 }
 
@@ -2072,7 +2072,7 @@ button{
 .sidebar-social-link{
    ul{
       margin:0;
-      li{ 
+      li{
 	     text-align:center;
 		 border:$form-border4;
 		 border-radius:$border-radius;
@@ -2097,24 +2097,24 @@ button{
 			   font-size:16px;
 			}
 		 }
-		 
+
 		 @include laptop{
 		     padding: 5px 10px;
 		 }
-	  
+
 	  }
    }
 }
 .sidebar-widget{
    margin-bottom:$inner-60;
-   
+
    @include tablet{
        margin-bottom:$inner-30;
    }
    @include laptop{
        margin-bottom:$inner-30;
    }
-   
+
 }
 .sidebar-right{
     @include tablet{
@@ -2137,7 +2137,7 @@ button{
 	border-radius:$border-radius;
     @include laptop{
 	    padding:$inner-30;
-	} 
+	}
 	@include tablet{
 	    padding:$inner-30;
 	}
@@ -2169,9 +2169,9 @@ button{
 		box-shadow:$box-shadow;
 		margin:auto;
 		margin-bottom:25px;
-		
+
 		img{
-			
+
 		bottom: 0;
 		width: 30px;
 		height: 30px;
@@ -2192,7 +2192,7 @@ button{
 			color:$font-color-base;
 		}
 		}
-		
+
 	}
 	@include tablet{
 		padding-left:0;
@@ -2204,7 +2204,7 @@ button{
 	}
 }
 .contact-image{
-	
+
 	img{
 		@include tablet{
 			max-width:100%;
@@ -2266,11 +2266,11 @@ button{
   }
   @include desktop{
     margin-top:222px;
-  }  
+  }
   @include tablet{
      margin-top:0;
 	 padding-top:$inner-90;
-  } 
+  }
   @include laptop{
      margin-top:0;
 	 padding-top:$section-130;
@@ -2279,7 +2279,7 @@ button{
 .footer-logo{
 	margin-bottom:15px;
 	display:block;
-	
+
 	img{
 	    position:relative;
 		z-index:3;
@@ -2306,10 +2306,10 @@ button{
 		}
 		li a{
 			color:rgba($font-color4, 0.9);
-			
+
 			&:hover{
 			    text-decoration:underline;
-			} 
+			}
 		}
 	}
     .social-link{
@@ -2319,7 +2319,7 @@ button{
 		li a{
 			font-size:20px;
 			color:rgba($font-color4, 0.9);
-			
+
 			&:hover{
 			  color:rgba($font-color4, 1);
 		   }
@@ -2335,7 +2335,7 @@ button{
 		input{
 			 @include form-size(
 				  $form-size,$form-space-v,$form-space-h - 15,$form-radius
-			  ) 
+			  )
 			@include form-variant(
 				  $form-color,$form-bg2,$form-border2, $form-color,$form-bg2,$form-border2
 			  )
@@ -2346,7 +2346,7 @@ button{
 			  )
 			   @include form-size(
 				  $form-size,$form-space-v,$form-space-h,$form-radius
-			  ) 
+			  )
 		}
 	}
 }
@@ -2373,7 +2373,7 @@ button{
 		position:absolute;
 		bottom:-40px;
 		left:-40px;
-		
+
 		img{
 		    z-index:3;
 			position:relative;
@@ -2383,7 +2383,7 @@ button{
 		position:absolute;
 		right:-40px;
 		bottom:-40px;
-		
+
 		img{
 		    z-index:3;
 			position:relative;
@@ -2405,4 +2405,3 @@ button{
 .swiper-slide-duplicate-prev  {
     border: 11px solid #fff;
 }
-
