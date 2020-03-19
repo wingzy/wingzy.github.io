@@ -6,20 +6,20 @@
             <div class="col-md-7">
             <div class="section-title m-b-70" data-aos="fade-up">
                 <h2 class="big-font2">Pourquoi Wingzy ?</h2>
-                <p>On gagne tellement de temps quand on trouve la bonne personne pour nous aider. Wingzy est un outil RH de terrain, utilisable par tous les métiers, tous les jours. Déployée de pair-à-pair à travers votre entreprise en quelques semaines, c'est un moteur viral de la collaboration et donc, de la performance.</p>
+                <p>On gagne tellement de temps quand on trouve la personne compétente : celle qui sait faire, qui peut faire, qui  veut faire. Wingzy c'est l'app pour reconnaitre et partager cette compétence vivante, de pair-à-pair, en temps réel.</p>
             </div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-8">
             <div class="row">
-              {% for feature in site.data.features %}
+              {% for reason in site.data.reasons %}
                 <div class="col-md-6">
                     <div class="feature-box" data-aos="fade-right">
-                        <div class="feature-logo"><img src="{{feature.image}}" alt="{{feature.title}}"/></div>
+                        <div class="feature-logo"><img src="{{reason.image}}" alt="{{reason.title}}"/></div>
                         <div class="feature-content">
-                        <h4 class="heading-4">{{feature.title}}</h4>
-                        <p>{{feature.description}}</p>
+                            <h4 class="heading-4">{{reason.title}}</h4>
+                            <p>{{reason.description}}</p>
                         </div>
                         <div class="feature-shape"></div>
                     </div>

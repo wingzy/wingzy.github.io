@@ -795,7 +795,8 @@ input[type='submit'] {
     background-color: #ff0018;
     border: 1px solid #ff0018; }
   .ads-btn1 span {
-    margin-left: 10px; }
+    margin-left: 10px;
+    vertical-align: middle; }
   .ads-btn1 img {
     height: 27px;
     width: 27px;
@@ -805,11 +806,11 @@ input[type='submit'] {
 
 .ads-btn2 {
   font-size: 20px;
-  padding: 15px 20px;
+  padding: 16px 20px;
   border-radius: 4px;
-  color: #ffffff;
+  color: #ff0018;
   background-color: transparent;
-  border: 1px solid #ffffff; }
+  border: 1px solid #ff0018; }
   .ads-btn2:focus, .ads-btn2:hover, .ads-btn2:active {
     color: #ffffff;
     background-color: #ff0018;
@@ -1125,7 +1126,7 @@ input[type='submit'] {
         transition: all 500ms ease; }
         .header-nav .main-menu li.has-submenu ul li a:hover {
           text-indent: 2px;
-          color: #2b2d3c; }
+          color: #ff0018; }
     .header-nav .main-menu li.has-submenu > ul:before {
       content: "";
       background-color: #ffffff;
@@ -1316,7 +1317,7 @@ input[type='submit'] {
 
 .service-box {
   text-align: center;
-  margin-bottom: 60px; }
+  margin-bottom: 80px; }
   .service-box .service-logo {
     padding: 21px 5px;
     width: 85px;
@@ -1530,7 +1531,7 @@ input[type='submit'] {
 .screenshot-list {
   position: relative; }
   .screenshot-list li {
-    padding-left: 25px;
+    padding-left: 30px;
     margin-bottom: 15px; }
     .screenshot-list li:before {
       font-family: "Font Awesome 5 Free";
@@ -1538,7 +1539,7 @@ input[type='submit'] {
       content: "\f068";
       position: absolute;
       left: 0;
-      color: #2b2d3c; }
+      color: #ff0018; }
 
 .screenshot-content {
   margin-bottom: 30px; }
@@ -1574,7 +1575,7 @@ input[type='submit'] {
       position: absolute;
       line-height: 30px;
       left: 0;
-      color: #2b2d3c; }
+      color: #ff0018; }
 
 .apps-store-img img {
   z-index: 2;
@@ -1738,7 +1739,7 @@ input[type='submit'] {
   display: block;
   margin-bottom: 5px; }
   .testimonial-slider .author-name a:hover {
-    color: #2b2d3c; }
+    color: #ff0018; }
 
 .testimonial-slider .author-name span {
   display: block;
@@ -1963,7 +1964,7 @@ input[type='submit'] {
         color: #041e49;
         font-weight: 600; }
         .blog-post .post-author .author-content > a:hover {
-          color: #2b2d3c; }
+          color: #ff0018; }
       .blog-post .post-author .author-content span {
         font-size: 14px;
         font-weight: 400; }
@@ -1972,7 +1973,7 @@ input[type='submit'] {
   .blog-post .post-desc p {
     margin-bottom: 30px; }
   .blog-post .post-desc .post-btn {
-    color: #2b2d3c;
+    color: #ff0018;
     padding: 0;
     font-weight: 600; }
     .blog-post .post-desc .post-btn:hover {
@@ -2097,7 +2098,7 @@ input[type='submit'] {
   content: "\f111";
   margin-right: 15px;
   font-size: 12px;
-  color: #2b2d3c; }
+  color: #ff0018; }
 
 .entry-content blockquote {
   font-size: 20px;
@@ -2133,7 +2134,7 @@ input[type='submit'] {
       .blog-share-tags .blog-author-tags ul li a {
         color: #777777; }
         .blog-share-tags .blog-author-tags ul li a:hover {
-          color: #2b2d3c; }
+          color: #ff0018; }
   .blog-share-tags .blog-author-share {
     float: right; }
     .blog-share-tags .blog-author-share ul {
@@ -2146,7 +2147,7 @@ input[type='submit'] {
           color: #777777;
           font-size: 14px; }
           .blog-share-tags .blog-author-share ul li a:hover {
-            color: #2b2d3c; }
+            color: #ff0018; }
 
 .blog-author-admin {
   display: table;

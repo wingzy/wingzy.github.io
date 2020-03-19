@@ -139,6 +139,7 @@ input[type='submit'] {
   )
   span{
      margin-left:10px;
+	   vertical-align: middle;
   }
   img{
 	  height:27px;
@@ -149,10 +150,10 @@ input[type='submit'] {
 }
 .ads-btn2{
   @include form-size(
-      $form-size2,$form-space-v + 5, $form-space-v + 10,$form-radius
+      $form-size2,$form-space-v + 6, $form-space-v + 10,$form-radius
   )
   @include form-variant(
-      $form-color,transparent,$form-border3, $form-change-color,$form-bg2,$form-change-border2
+      $form-color2,transparent,$form-border2, $form-change-color,$form-bg2,$form-change-border2
   )
   span{
      margin-left:10px;
@@ -752,7 +753,7 @@ input[type='submit'] {
 }
 .service-box{
 	text-align:center;
-	margin-bottom:$inner-60;
+	margin-bottom:$inner-80;
 	.service-logo{
 		padding:21px 5px;
 		width:85px;
@@ -1014,7 +1015,7 @@ input[type='submit'] {
 .screenshot-list{
 	 position:relative;
 	li{
-		padding-left:25px;
+		padding-left:30px;
 		margin-bottom:15px;
 		&:before{
 			  font-family: "Font Awesome 5 Free";
