@@ -752,7 +752,7 @@ input[type='submit'] {
 }
 .service-box{
 	text-align:center;
-	margin-bottom:$inner-30;
+	margin-bottom:$inner-60;
 	.service-logo{
 		padding:21px 5px;
 		width:85px;
@@ -816,10 +816,10 @@ input[type='submit'] {
 		box-shadow:$box-shadow-deep;
 		border-radius:$round-radius;
 		margin:auto auto $inner-30;
-		padding:21px 5px;
+		padding:15px 5px;
 		transition:$transition-base;
 		img {
-			max-height : 40px;
+			max-height : 54px;
 		}
 	}
 	.feature-content{
@@ -1042,7 +1042,7 @@ input[type='submit'] {
 	margin:15px 0;
 }
 .swiper-slide-active{
-	box-shadow:$box-shadow;
+	box-shadow:$box-shadow-deep;
 }
 
 /* ==============================================

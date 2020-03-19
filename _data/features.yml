@@ -1,12 +1,12 @@
-- title: Retina Ready
-  description: Magna exercitation! Dolaccumsan sapiente, curabitur voluptate minim quidem placeat.
-  image: assets/images/feature-icon1.png
-- title: Premium Quality
-  description: Premium Quality Dolaccumsan sapiente, curabitur voluptate minim quidem placeat.
-  image: assets/images/feature-icon2.png
-- title: Constant Updates
-  description: Constant Updates Dolaccumsan sapiente, curabitur voluptate minim quidem placeat.
-  image: assets/images/feature-icon3.png
-- title: Excellent Support
-  description: Excellent Support Dolaccumsan sapiente, curabitur voluptate minim quidem placeat.
-  image: assets/images/feature-icon4.png
+- title: Opérations
+  description: Valorisez vos compétences d'aujourd'hui en accélérant la collaboration horizontale.
+  image: assets/icons/hammer-and-wrench.png
+- title: Développement
+  description: Construisez vos compétences de demain grâce au transfert de pair-à-pair.
+  image: assets/icons/rocket.png
+- title: Engagement
+  description: Reconnaissez l'impact terrain de vos collaborateurs. Augmentez-là !
+  image: assets/icons/raised-fist.png
+- title: Stratégie
+  description: Explorez les compétences vivantes à travers votre entreprise.
+  image: assets/icons/brain.png
