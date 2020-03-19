@@ -91,7 +91,7 @@ div[class*="-wrapper"]{
 
 /* ==============================================
 
-3. Form & Button 
+3. Form & Button
 
 ============================================== */
 form,
@@ -141,8 +141,9 @@ input[type='submit'] {
      margin-left:10px;
   }
   img{
-	  height:20px;
-	  width:20px;
+	  height:27px;
+	  width:27px;
+    margin-top: -4px;
 	  object-fit:contain;
   }
 }
@@ -155,11 +156,12 @@ input[type='submit'] {
   )
   span{
      margin-left:10px;
-	 vertical-align: middle;
+	   vertical-align: middle;
   }
   img{
-	  height:20px;
-	  width:20px;
+	  height:27px;
+	  width:27px;
+    margin-top: -4px;
 	  object-fit:contain;
   }
 }
@@ -243,51 +245,6 @@ input[type='submit'] {
 	}
 }
 
-
-/* ==============================================
-
-5. Shape  Animation
-
-============================================== */
-.themeix-ani{
-	.shape-one{
-		position: absolute;
-    left: 9%;
-    top: 28%;
-    animation: animationFramesOne 25s alternate infinite linear;
-	}
-	.shape-two{
-		    position: absolute;
-    left: 38%;
-    bottom: 25%;
-    animation: animationFramesTwo 35s alternate infinite linear;
-	}
-	.shape-tree{
-		    position: absolute;
-    bottom: 60%;
-    right: 10%;
-    animation: animationFramesFour  20s infinite linear;
-	}
-	.shape-four{
-	 position: absolute;
-        bottom: 10%;
-    right: 40%;
-    animation: rotated  20s infinite linear;
-	}
-	.shape-five{
-	 position: absolute;
-    bottom: 20%;
-    left: 10%;
-    animation: animationFramesFive  20s infinite linear;
-	}
-	.shape-six{
-	 position: absolute;
-    animation: rotated  50s infinite linear;
-	}
-	@include tablet{
-	   display:none;
-	}
-}
 /* ==============================================
 
 6. Header Area
@@ -786,7 +743,7 @@ input[type='submit'] {
 
 ============================================== */
 .line-color1{
-	background-color:#fec2c2;;
+	background-color:#ff0018;;
 }
 .line-color2{
 	background-color:#b0ffca;
@@ -863,35 +820,6 @@ input[type='submit'] {
 		transition:$transition-base;
 		img {
 			max-height : 40px;
-		}
-	}
-	&:after{
-		content:"";
-		width:170px;
-		height:1px;
-		display:block;
-		background:#6d49bf;
-		opacity:0.14;
-		position:absolute;
-		top:50px;
-		left:30px;
-
-		@include laptop{
-		    display:none;
-		}
-	}
-	&:before{
-		content:"";
-		width:1px;
-		height:170px;
-		display:block;
-		background:#6d49bf;
-		opacity:0.14;
-		position:absolute;
-		top:30px;
-		left:50px;
-		@include laptop{
-		    display:none;
 		}
 	}
 	.feature-content{

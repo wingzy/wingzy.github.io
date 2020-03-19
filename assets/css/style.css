@@ -713,7 +713,7 @@ div[class*="-wrapper"] {
 
 /* ==============================================
 
-3. Form & Button 
+3. Form & Button
 
 ============================================== */
 form,
@@ -797,8 +797,9 @@ input[type='submit'] {
   .ads-btn1 span {
     margin-left: 10px; }
   .ads-btn1 img {
-    height: 20px;
-    width: 20px;
+    height: 27px;
+    width: 27px;
+    margin-top: -4px;
     -o-object-fit: contain;
        object-fit: contain; }
 
@@ -817,8 +818,9 @@ input[type='submit'] {
     margin-left: 10px;
     vertical-align: middle; }
   .ads-btn2 img {
-    height: 20px;
-    width: 20px;
+    height: 27px;
+    width: 27px;
+    margin-top: -4px;
     -o-object-fit: contain;
        object-fit: contain; }
 
@@ -897,55 +899,6 @@ input[type='submit'] {
   margin-bottom: 20px; }
   .inner-title h3, .inner-title h4, .inner-title h5, .inner-title h6 {
     margin: 0; }
-
-/* ==============================================
-
-5. Shape  Animation
-
-============================================== */
-.themeix-ani .shape-one {
-  position: absolute;
-  left: 9%;
-  top: 28%;
-  -webkit-animation: animationFramesOne 25s alternate infinite linear;
-          animation: animationFramesOne 25s alternate infinite linear; }
-
-.themeix-ani .shape-two {
-  position: absolute;
-  left: 38%;
-  bottom: 25%;
-  -webkit-animation: animationFramesTwo 35s alternate infinite linear;
-          animation: animationFramesTwo 35s alternate infinite linear; }
-
-.themeix-ani .shape-tree {
-  position: absolute;
-  bottom: 60%;
-  right: 10%;
-  -webkit-animation: animationFramesFour  20s infinite linear;
-          animation: animationFramesFour  20s infinite linear; }
-
-.themeix-ani .shape-four {
-  position: absolute;
-  bottom: 10%;
-  right: 40%;
-  -webkit-animation: rotated  20s infinite linear;
-          animation: rotated  20s infinite linear; }
-
-.themeix-ani .shape-five {
-  position: absolute;
-  bottom: 20%;
-  left: 10%;
-  -webkit-animation: animationFramesFive  20s infinite linear;
-          animation: animationFramesFive  20s infinite linear; }
-
-.themeix-ani .shape-six {
-  position: absolute;
-  -webkit-animation: rotated  50s infinite linear;
-          animation: rotated  50s infinite linear; }
-
-@media (max-width: 768px) {
-  .themeix-ani {
-    display: none; } }
 
 /* ==============================================
 
@@ -1353,7 +1306,7 @@ input[type='submit'] {
 
 ============================================== */
 .line-color1 {
-  background-color: #fec2c2; }
+  background-color: #ff0018; }
 
 .line-color2 {
   background-color: #b0ffca; }
@@ -1418,32 +1371,6 @@ input[type='submit'] {
     transition: all 500ms ease; }
     .feature-box .feature-logo img {
       max-height: 40px; }
-  .feature-box:after {
-    content: "";
-    width: 170px;
-    height: 1px;
-    display: block;
-    background: #6d49bf;
-    opacity: 0.14;
-    position: absolute;
-    top: 50px;
-    left: 30px; }
-    @media (min-width: 768px) and (max-width: 992px) {
-      .feature-box:after {
-        display: none; } }
-  .feature-box:before {
-    content: "";
-    width: 1px;
-    height: 170px;
-    display: block;
-    background: #6d49bf;
-    opacity: 0.14;
-    position: absolute;
-    top: 30px;
-    left: 50px; }
-    @media (min-width: 768px) and (max-width: 992px) {
-      .feature-box:before {
-        display: none; } }
   .feature-box .feature-content h3, .feature-box .feature-content h4, .feature-box .feature-content h5 {
     margin-bottom: 20px; }
   .feature-box .feature-content p {
