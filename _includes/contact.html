@@ -17,30 +17,28 @@
             <div class="col-md-6">
             <div class="section-title m-b-60">
                 <h2 class="big-font2">Demander une démo</h2>
-                <p>Dites-nous qui vous êtes et comment nous pouvons vous aider. Nous organiserons une démo pour vous.</p>
+                <p>Utiliser le formulaire ci-dessous pour contacter l'équipe, ou écrivez à <a href="mailto:contact@wingzy.com">contact@wingzy.com</a></p>
             </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6 col-lg-7">
+            <div class="col-md-4">
+                <ul class="testimonial-thumbs list-inline">
+                    {% for teammate in site.data.teammates %}
+                    <li class="author-img owl-thumb-item"><a href="{{teammate.link}}" target="_blank"><img src="{{teammate.face}}" alt="{{teammate.name}}" title="{{teammate.name}}"/></a></li>
+                    {% endfor %}
+                </ul>
             </div>
-            <div class="col-md-6 col-lg-5">
-            <div class="newsletter-form" data-aos="fade-up-left">
-                <div class="inner-title m-b-30">
-                    <h3 class="heading-3">Envoyer un message</h3>
+            <div class="col-md-7  offset-md-1">
+                <div class="newsletter-form" data-aos="fade-up-left">
+                    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+                    <script>
+                      hbspt.forms.create({
+                    	portalId: "4894133",
+                    	formId: "e8124caa-4549-4a79-bfdb-990818d15aa1"
+                    });
+                    </script>
                 </div>
-                <form action="#">
-                    <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Email Address">
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-control" placeholder="Your Message Here" rows="5"></textarea>
-                    </div>
-                    <div class="form-group m-0">
-                        <button class=" btn-primary btn-block" type="submit">Envoyer</button>
-                    </div>
-                </form>
-            </div>
             </div>
         </div>
     </div>

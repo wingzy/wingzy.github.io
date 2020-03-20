@@ -8,15 +8,16 @@
 
 title: "Wingzy"
 email: "contact@wingzy.com"
-description: >- # this means to ignore newlines until "baseurl:"
-  Qui peut m'aider ? Wingzy c'est l'annuaire vivant pour reconnaître et partager vos compétences de pair-à-pair.
+description: >
+  Bring your skills alive!
+keywords: talents skills activation collaborative app software saas hr human resouces engagement
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://wingzy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://wingzy.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: wingzy_com
 github_username:  wingzy
 logo: "/assets/images/wingzy_logo.png"
 
-cover_image: ""
+cover_image: "/assets/social/wingzy_cover.png"
 
 permalink: "/:title"
 # Build settings

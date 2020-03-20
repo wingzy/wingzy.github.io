@@ -215,6 +215,8 @@ input[type='submit'] {
   }
 }
 
+.hubspot-link__container.sproket { display: none; margin-bottom: 0;}
+
 /* ==============================================
 
 4. Section & Inner Title
@@ -2031,13 +2033,13 @@ button{
 ============================================== */
 .newsletter-form{
 	box-shadow:$box-shadow-deep;
-	padding:$inner-80 $inner-70;
+	padding:$inner-80 $inner-70 $inner-40;
 	border-radius:$border-radius;
     @include laptop{
-	    padding:$inner-30;
+	    padding:$inner-30 $inner-30 $inner-10;
 	}
 	@include tablet{
-	    padding:$inner-30;
+	    padding:$inner-30 $inner-30 $inner-10;
 	}
 }
 .newsletter-img{
@@ -2120,8 +2122,9 @@ button{
 
 ============================================== */
 
-.scrollToTop {
+a.scrollToTop {
     margin: 0 15px 15px 0;
+    color: $font-color3;
     text-align: center;
     text-decoration: none;
     position: fixed;
@@ -2133,11 +2136,11 @@ button{
     border-radius: 50px;
     text-align: center;
     line-height: 40px;
-	box-shadow:$box-shadow;
-	z-index:111;
+	  box-shadow:$box-shadow;
+	  z-index:111;
 }
 
-.scrollToTop:hover {
+a.scrollToTop:hover {
   text-decoration: none;
 }
 .footer-area{

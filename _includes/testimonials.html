@@ -5,7 +5,7 @@
         <div class="col-md-4">
             <ul class="testimonial-thumbs owl-thumbs list-inline" data-slider-id="1">
                 {% for testimonial in site.data.testimonials %}
-                <li class="author-img owl-thumb-item"><img src="{{testimonial.face}}" alt="author image" /></li>
+                <li class="author-img owl-thumb-item"><img src="{{testimonial.face}}" alt="{{testimonial.name}}" title="{{testimonial.name}}"/></li>
                 {% endfor %}
             </ul>
         </div>

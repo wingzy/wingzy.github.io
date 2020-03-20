@@ -876,6 +876,10 @@ input[type='submit'] {
        object-fit: contain;
     float: left; }
 
+.hubspot-link__container.sproket {
+  display: none;
+  margin-bottom: 0; }
+
 /* ==============================================
 
 4. Section & Inner Title
@@ -2370,7 +2374,7 @@ input[type='submit'] {
 ============================================== */
 .newsletter-form {
   box-shadow: 0 0 10px 0 rgba(25, 100, 227, 0.1);
-  padding: 80px 70px;
+  padding: 80px 70px 40px;
   border-radius: 5px; }
   @media (min-width: 768px) and (max-width: 992px) {
     .newsletter-form {
