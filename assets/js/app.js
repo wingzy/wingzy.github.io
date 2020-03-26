@@ -5,11 +5,12 @@
         $(".banner-slider").owlCarousel({
             autoplay: true,
             dots: false,
-            nav: true, 
+            nav: true,
             loop: true,
             margin: 30,
             lazyLoad: true,
             center: true,
+            autoplayTimeout: 10000,
             responsive: {
                 0: {
                     items: 1
@@ -25,7 +26,7 @@
     }
     /* highlight js */
     if (('pre code').length > 0) {
-        document.querySelectorAll('pre code').forEach((block) => {
+        document.querySelectorAll('pre code').forEach(function(block) {
             hljs.highlightBlock(block);
         });
     }
@@ -36,11 +37,11 @@
 			resizeWidth: "991",
 			animSpeed:500,
             easingEffect: 'easeOutElastic',
-			
+
 		});
 
 
-    }  
+    }
 	/* testimonial slider */
 
     if (('.testimonial-slider').length > 0) {
@@ -49,7 +50,7 @@
 			thumbsPrerendered: true,
 			autoplay: true,
             dots: false,
-            mouseDrag:false, 
+            mouseDrag:false,
 			stagePadding:30,
 			margin:60,
             loop: false,
@@ -71,7 +72,7 @@
             }
 		  });
 
-    }  
+    }
 	if (('.latest-slider').length > 0) {
        $('.latest-slider').owlCarousel({
 			autoplay: true,
@@ -116,23 +117,23 @@
 	  });
 
     /*  aos js*/
-	
+
 	if (('.swiper-container').length > 0) {
     var swiper = new Swiper('.swiper-container', {
       effect: 'coverflow',
       grabCursor: true,
-	  loop: true,
+	    loop: true,
       centeredSlides: true,
-	slidesPerView: 2,
-	initialSlide: 2,
-	   breakpoints: {  
-      991: {       
+	    slidesPerView: 2,
+	    initialSlide: 2,
+	    breakpoints: {
+      991: {
          slidesPerView: 1 ,
-		 initialSlide: 2        
-      }  
-  
+		 initialSlide: 2
+      }
+
    },
-	
+
       coverflowEffect: {
         rotate: 0,
         stretch: 0,
@@ -141,16 +142,16 @@
         slideShadows : false,
       },
 	    navigation: false,
-    });	
+    });
 	}
-	
+
     /*  aos js*/
     AOS.init({
-        offset: 120, 
-        delay: 0, 
-        duration: 400, 
-        easing: 'ease', 
-        once: true, 
+        offset: 120,
+        delay: 0,
+        duration: 400,
+        easing: 'ease',
+        once: true,
         mirror: false,
         anchorPlacement: 'top-bottom',
 

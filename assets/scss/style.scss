@@ -555,9 +555,10 @@ input[type='submit'] {
 	}
   }
   a {
+    transition: $transition-base;
     &:hover, &:focus {
       background-color: transparent;
-      color: $font-color4;
+      color: $font-color3;
 
 	  @include laptop{
 	     color: $link-color;
@@ -582,6 +583,11 @@ input[type='submit'] {
    }
 
 }
+
+.header-nav .main-menu li a:hover {
+  color: $font-color3;
+}
+
 .menu-collapser{
    .collapse-button{
          top: -38px;
@@ -1022,7 +1028,7 @@ input[type='submit'] {
 		&:before{
 			  font-family: "Font Awesome 5 Free";
 			  font-weight: 900;
-			  content: "\f111";
+			  content: "\f068";
 			  position:absolute;
 			  left:0;
 			  color:$font-color3;
@@ -1234,6 +1240,11 @@ input[type='submit'] {
 		p{
 			margin-bottom:$inner-40;
 		}
+    .author-logo {
+      height: 100px;
+      width: auto;
+      margin: 0 auto 40px;
+    }
 	}
 	.author-name{
 		h4,h5{
@@ -2036,10 +2047,10 @@ button{
 	padding:$inner-80 $inner-70 $inner-40;
 	border-radius:$border-radius;
     @include laptop{
-	    padding:$inner-30 $inner-30 $inner-10;
+	    padding:$inner-30 $inner-30 $inner-20;
 	}
 	@include tablet{
-	    padding:$inner-30 $inner-30 $inner-10;
+	    padding:$inner-30 $inner-30 $inner-20;
 	}
 }
 .newsletter-img{
@@ -2140,8 +2151,10 @@ a.scrollToTop {
 	  z-index:111;
 }
 
-a.scrollToTop:hover {
+a.scrollToTop:hover, a.scrollToTop:active {
   text-decoration: none;
+  color: $font-color4;
+  background: $font-color3;
 }
 .footer-area{
     margin-top:265px;
@@ -2209,7 +2222,7 @@ a.scrollToTop:hover {
 			color:rgba($font-color4, 0.9);
 
 			&:hover{
-			    text-decoration:underline;
+			    color: $font-color3;
 			}
 		}
 	}
@@ -2219,14 +2232,11 @@ a.scrollToTop:hover {
 		}
 		li a{
 			font-size:20px;
-			color:rgba($font-color4, 0.9);
-
+			color: $font-color4;
+      transition: $transition-base;
 			&:hover{
-			  color:rgba($font-color4, 1);
+			  color: $font-color3;
 		   }
-		}
-		li:hover{
-			border-top:$form-border2;
 		}
 	}
 	form{

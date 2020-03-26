@@ -5,7 +5,7 @@
     Nous avons retenu la solution Wingzy car c’est un outil simple, direct, intuitif et lisible pour favoriser la connection de nos équipes en 2 clics.
     L’écoute de nos besoins et l’agilité de l’équipe de Clément nous a permis de déployer notre POC en 3 semaines... avant de déployer plus largement la solution qui répond pleinement à nos attentes.
   face: assets/testimonials/marianne.jpg
-  logo: assets/images/wingzy_logo.png
+  logo: assets/testimonials/bouygues.png
   link: https://www.linkedin.com/in/marianne-gallon-12b62618/
 - name: Edward Arkwright
   role: Directeur général exécutif
@@ -14,7 +14,7 @@
       With Wingzy, the airport city of tomorrow at Paris-CDG will be more innovative, better connected and more collaborative.<br/><br/>
       Wingzy gagnant du concours <a href="https://twitter.com/ArkwrightEdward/status/1113116945921032192">Play your Airport 2</a>
   face: assets/testimonials/edward.jpg
-  logo: assets/images/wingzy_logo.png
+  logo: assets/testimonials/adp.png
   link: https://twitter.com/ArkwrightEdward
 - name: Bénédicte Tilloy
   role: Ancienne DRH SNCF
@@ -23,22 +23,24 @@
     Wingzy, c'est l'app toute simple mais super puissante dont j'ai toujours rêvé quand j'étais DRH de la SNCF : un outil qui révèle tous les talents de tous mes collaborateurs.<br/><br/>
     <a href="https://www.youtube.com/watch?v=4pLyGZAvzVo">Voir l'interview</a>
   face: assets/testimonials/benedicte.jpg
-  logo: assets/images/wingzy_logo.png
+  logo: assets/wingzy_line_200.png
   link: https://fr.wikipedia.org/wiki/B%C3%A9n%C3%A9dicte_Tilloy
 - name: Henri Lachmann
   role: Ancien PDG Schneider Electric
   title: Chez Schneider Electric
   quote: >
-    Wingzy permet de connaître les compétences et expériences et de la diffuser ou d'avoir un accès rapide<br/><br/>
+    Ce sont les hommes et les femmes qui font la différence. Wingzy permet de connaître les compétences et expériences et de les diffuser ou d'y avoir un accès rapide.<br/><br/>
     <a href="https://www.youtube.com/watch?v=hzoN5oVQTHc">Voir l'interview</a>
   face: assets/testimonials/henri.jpg
-  logo: assets/images/wingzy_logo.png
+  logo: assets/wingzy_line_200.png
   link: https://fr.wikipedia.org/wiki/Henri_Lachmann
-- name: Sandra Lagumina
-  role: Directrice des opérations
-  title: Chez Meridiam
+- name: Marie Lévy
+  role: Juriste Conformité
+  title: Chez Colas
   quote: >
-    Meridiam est une mine d'or de talents mais ils étaient invisibles et isolés. Mais c'était avant Wingzy !
-  face: assets/testimonials/sandra.jpg
-  logo: assets/images/wingzy_logo.png
-  link: https://www.linkedin.com/in/sandra-lagumina-79930b112/
+    J’ai trouvé la création de mon compte très facile, rapide et intuitive. En moins de 5 minute, le profil est plutôt bien rempli. J’apprécie également beaucoup le design qui rend l’utilisation très simple tout en étant très esthétique, même personnalisée avec le fond d’écran modifiable.<br/>
+    La recherche de d’utilisateurs est également très facile, et en un clic on a un bon aperçu du profil de la personne. Très pratique de pouvoir rechercher des personnes par entité/métier.<br/>
+    En résumé, j’ai adoré !
+  face: assets/testimonials/marie.jpg
+  logo: assets/testimonials/colas.png
+  link: https://www.linkedin.com/in/marie-l%C3%A9vy-46a26512a/

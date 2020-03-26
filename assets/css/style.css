@@ -1165,15 +1165,17 @@ input[type='submit'] {
         .header-nav .main-menu li .sub-toggle {
           width: 45px;
           height: 100% !important; } }
-    .header-nav .main-menu li a:hover, .header-nav .main-menu li a:focus {
-      background-color: transparent;
-      color: #ffffff; }
-      @media (min-width: 768px) and (max-width: 992px) {
-        .header-nav .main-menu li a:hover, .header-nav .main-menu li a:focus {
-          color: #FF0018; } }
-      @media (max-width: 768px) {
-        .header-nav .main-menu li a:hover, .header-nav .main-menu li a:focus {
-          color: #FF0018; } }
+    .header-nav .main-menu li a {
+      transition: all 500ms ease; }
+      .header-nav .main-menu li a:hover, .header-nav .main-menu li a:focus {
+        background-color: transparent;
+        color: #ff0018; }
+        @media (min-width: 768px) and (max-width: 992px) {
+          .header-nav .main-menu li a:hover, .header-nav .main-menu li a:focus {
+            color: #FF0018; } }
+        @media (max-width: 768px) {
+          .header-nav .main-menu li a:hover, .header-nav .main-menu li a:focus {
+            color: #FF0018; } }
     .header-nav .main-menu li .sub-toggle i {
       color: transparent;
       position: relative; }
@@ -1183,6 +1185,8 @@ input[type='submit'] {
       .header-nav .main-menu li.has-submenu ul li {
         float: none;
         display: block; }
+  .header-nav .header-nav .main-menu li a:hover {
+    color: #ff0018; }
   .header-nav .menu-collapser .collapse-button {
     top: -38px; }
     .header-nav .menu-collapser .collapse-button .icon-bar {
@@ -1540,7 +1544,7 @@ input[type='submit'] {
     .screenshot-list li:before {
       font-family: "Font Awesome 5 Free";
       font-weight: 900;
-      content: "\f111";
+      content: "\f068";
       position: absolute;
       left: 0;
       color: #ff0018; }
@@ -1720,6 +1724,11 @@ input[type='submit'] {
 
 .testimonial-slider .author-desc p {
   margin-bottom: 40px; }
+
+.testimonial-slider .author-desc .author-logo {
+  height: 100px;
+  width: auto;
+  margin: 0 auto 40px; }
 
 .testimonial-slider .author-name h4, .testimonial-slider .author-name h5 {
   margin: 0; }
@@ -2378,10 +2387,10 @@ input[type='submit'] {
   border-radius: 5px; }
   @media (min-width: 768px) and (max-width: 992px) {
     .newsletter-form {
-      padding: 30px; } }
+      padding: 30px 30px 20px; } }
   @media (max-width: 768px) {
     .newsletter-form {
-      padding: 30px; } }
+      padding: 30px 30px 20px; } }
 
 .newsletter-img img {
   max-width: 100%; }
@@ -2439,8 +2448,9 @@ input[type='submit'] {
 19. Footer Area
 
 ============================================== */
-.scrollToTop {
+a.scrollToTop {
   margin: 0 15px 15px 0;
+  color: #ff0018;
   text-align: center;
   text-decoration: none;
   position: fixed;
@@ -2455,8 +2465,10 @@ input[type='submit'] {
   box-shadow: 0 0 20px 0 rgba(25, 100, 227, 0.06);
   z-index: 111; }
 
-.scrollToTop:hover {
-  text-decoration: none; }
+a.scrollToTop:hover, a.scrollToTop:active {
+  text-decoration: none;
+  color: #ffffff;
+  background: #ff0018; }
 
 .footer-area {
   margin-top: 265px; }
@@ -2516,16 +2528,15 @@ input[type='submit'] {
     .footer-widget .widget-list li a {
       color: rgba(255, 255, 255, 0.9); }
       .footer-widget .widget-list li a:hover {
-        text-decoration: underline; }
+        color: #ff0018; }
   .footer-widget .social-link li {
     border-top: 1px solid transparent; }
   .footer-widget .social-link li a {
     font-size: 20px;
-    color: rgba(255, 255, 255, 0.9); }
+    color: #ffffff;
+    transition: all 500ms ease; }
     .footer-widget .social-link li a:hover {
-      color: white; }
-  .footer-widget .social-link li:hover {
-    border-top: 1px solid #ff0018; }
+      color: #ff0018; }
   .footer-widget form ::-webkit-input-placeholder {
     color: #ffffff; }
   .footer-widget form :-moz-placeholder {
