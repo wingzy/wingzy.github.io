@@ -299,10 +299,10 @@ input[type='submit'] {
       margin-bottom:277px;
   }
    @include laptop{
-       margin:0;
+       margin-bottom:$section-130;
    }
    @include tablet{
-       margin:0;
+       margin-bottom:$section-130;
    }
 }
 .page-area{
@@ -1267,17 +1267,19 @@ input[type='submit'] {
 		}
 	}
 	.owl-dots{
+      position: absolute;
+      top: -$inner-30;
+      width: 100%;
 	    text-align: center;
-        margin-top: $inner-30;
 	    .owl-dot{
 		   width:15px;
 		   height:15px;
 		   margin-right:10px;
 		   border-radius:$round-radius;
-		   background-color:$bg-color4;
+		   background-color:$font-color-base;
 		}
 		.owl-dot.active{
-		   background-color:$bg-color2;
+		   background-color:$font-color3;
 		}
 	}
 }

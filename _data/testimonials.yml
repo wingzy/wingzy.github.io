@@ -23,7 +23,7 @@
     Wingzy, c'est l'app toute simple mais super puissante dont j'ai toujours rêvé quand j'étais DRH de la SNCF : un outil qui révèle tous les talents de tous mes collaborateurs.<br/><br/>
     <a href="https://www.youtube.com/watch?v=4pLyGZAvzVo">Voir l'interview</a>
   face: assets/testimonials/benedicte.jpg
-  logo: assets/wingzy_line_200.png
+  logo: assets/wingzy_icon.png
   link: https://fr.wikipedia.org/wiki/B%C3%A9n%C3%A9dicte_Tilloy
 - name: Henri Lachmann
   role: Ancien PDG Schneider Electric
@@ -32,13 +32,13 @@
     Ce sont les hommes et les femmes qui font la différence. Wingzy permet de connaître les compétences et expériences et de les diffuser ou d'y avoir un accès rapide.<br/><br/>
     <a href="https://www.youtube.com/watch?v=hzoN5oVQTHc">Voir l'interview</a>
   face: assets/testimonials/henri.jpg
-  logo: assets/wingzy_line_200.png
+  logo: assets/wingzy_icon.png
   link: https://fr.wikipedia.org/wiki/Henri_Lachmann
 - name: Marie Lévy
   role: Juriste Conformité
   title: Chez Colas
   quote: >
-    J’ai trouvé la création de mon compte très facile, rapide et intuitive. En moins de 5 minute, le profil est plutôt bien rempli. J’apprécie également beaucoup le design qui rend l’utilisation très simple tout en étant très esthétique, même personnalisée avec le fond d’écran modifiable.<br/>
+    J’ai trouvé la création de mon compte très facile, rapide et intuitive. En moins de 5 minute, le profil est plutôt bien rempli.<br/>
     La recherche de d’utilisateurs est également très facile, et en un clic on a un bon aperçu du profil de la personne. Très pratique de pouvoir rechercher des personnes par entité/métier.<br/>
     En résumé, j’ai adoré !
   face: assets/testimonials/marie.jpg

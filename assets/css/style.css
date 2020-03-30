@@ -955,10 +955,10 @@ input[type='submit'] {
       margin-bottom: 277px; } }
   @media (min-width: 768px) and (max-width: 992px) {
     .header-area {
-      margin: 0; } }
+      margin-bottom: 130px; } }
   @media (max-width: 768px) {
     .header-area {
-      margin: 0; } }
+      margin-bottom: 130px; } }
 
 .page-area {
   margin-bottom: 276px; }
@@ -1748,16 +1748,18 @@ input[type='submit'] {
   color: #777777; }
 
 .testimonial-slider .owl-dots {
-  text-align: center;
-  margin-top: 30px; }
+  position: absolute;
+  top: -30px;
+  width: 100%;
+  text-align: center; }
   .testimonial-slider .owl-dots .owl-dot {
     width: 15px;
     height: 15px;
     margin-right: 10px;
     border-radius: 50px;
-    background-color: #fafcff; }
+    background-color: #777777; }
   .testimonial-slider .owl-dots .owl-dot.active {
-    background-color: #2b2d3c; }
+    background-color: #ff0018; }
 
 /* ==============================================
 

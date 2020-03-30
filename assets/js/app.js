@@ -10,7 +10,7 @@
             margin: 30,
             lazyLoad: true,
             center: true,
-            autoplayTimeout: 10000,
+            autoplayTimeout: 3000,
             responsive: {
                 0: {
                     items: 1
@@ -45,31 +45,32 @@
 	/* testimonial slider */
 
     if (('.testimonial-slider').length > 0) {
-       $('.testimonial-slider').owlCarousel({
+      $('.testimonial-slider').owlCarousel({
 			thumbs: true,
 			thumbsPrerendered: true,
-			autoplay: true,
-            dots: false,
-            mouseDrag:false,
+			autoplay: false,
+      autoplayTimeout: 10000,
+      dots: false,
+      mouseDrag:false,
 			stagePadding:30,
 			margin:60,
-            loop: false,
-            lazyLoad: true,
+      loop: true,
+      lazyLoad: true,
 			responsive: {
-                0: {
-                    items: 1,
+        0: {
+          items: 1,
 					dots: true,
 					stagePadding:15,
-                },
-                768: {
-                    items: 1,
+        },
+        768: {
+          items: 1,
 					dots: true,
 					stagePadding:15,
-                },
-                1200: {
-                    items: 1
-                }
-            }
+        },
+        1200: {
+          items: 1
+          }
+        }
 		  });
 
     }
@@ -123,9 +124,14 @@
       effect: 'coverflow',
       grabCursor: true,
 	    loop: true,
+      speed: 1000,
       centeredSlides: true,
 	    slidesPerView: 2,
 	    initialSlide: 2,
+      autoplay: {
+          delay: 3000,
+          disableOnInteraction: false
+      },
 	    breakpoints: {
       991: {
          slidesPerView: 1 ,
