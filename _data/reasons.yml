@@ -1,12 +1,12 @@
-- title: Opérationel
-  description: Valorisez les compétences d'aujourd'hui en accélérant la collaboration transverse.
+- title: Augmenter l'efficience
+  description: "Actionner toutes les expertises en temps réel : accélérer les opérations, éviter les redondances et réduire les risques."
   image: assets/icons/hammer-and-wrench.png
-- title: Développement
-  description: Construisez les compétences de demain grâce au transfert de pair-à-pair.
-  image: assets/icons/rocket.png
-- title: Engagement
-  description: Augmentez la reconnaissance et l'impact des compétences sur le terrain.
+- title: Créer le lien
+  description: Rapprocher tous les collaborateurs à travers les équipes, les départements, les entités, les villes, les pays...
+  image: assets/icons/handshake.png
+- title: Engager l'humain
+  description: Révéler la diversité des compétences de tous les collaborateurs, augmenter leur mise en oeuvre et valoriser leur impact.
   image: assets/icons/raised-fist.png
-- title: Stratégie
-  description: Explorez l'offre et la demande des compétences à travers votre entreprise.
-  image: assets/icons/brain.png
+- title: Piloter et développer
+  description: Explorer l'offre et la demande des compétences d'aujourd'hui pour construire les compétences de demain.
+  image: assets/icons/rocket.png
