@@ -130,7 +130,7 @@
 	    initialSlide: 2,
       autoplay: {
           delay: 3000,
-          disableOnInteraction: false
+          disableOnInteraction: true
       },
 	    breakpoints: {
       991: {
@@ -150,6 +150,34 @@
 	    navigation: false,
     });
 	}
+
+
+
+  if (('.features-swiper-container').length > 0) {
+    var featuresSwiper = new Swiper('.features-swiper-container', {
+      slidesPerView: 3,
+      slidesPerGroup: 1,
+      spaceBetween: 30,
+      grabCursor: true,
+	    loop: true,
+      speed: 1000,
+      autoplay: {
+          delay: 3000,
+          disableOnInteraction: true
+      },
+      breakpoints: {
+        991: {
+           slidesPerView: 1,
+           slidesPerGroup: 1,
+           speed: 1000,
+           autoplay: {
+               delay: 3000
+          }
+        }
+      }
+    });
+  }
+
 
     /*  aos js*/
     AOS.init({

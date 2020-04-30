@@ -5,22 +5,25 @@
                 <div class="col-md-7">
                     <div class="section-title m-b-70" data-aos="fade-up">
                         <h2 class="big-font2">Les fonctionnalités</h2>
-                        <p>Wingzy met le meilleur de l'intelligence artificielle et de l'expérience utilisateur dans les mains de vos collaborateurs.</p>
+                        <p>Wingzy met le meilleur de l'intelligence artificielle et du design UX dans les mains de vos collaborateurs.</p>
                     </div>
                 </div>
             </div>
             <div class="row">
-              {% for feature in site.data.features %}
-                <div class="col-md-4">
-                <div class="service-box" data-aos="fade-up">
-                    <div class="service-logo"><img src="{{feature.image}}" alt="{{feature.title}}" /></div>
-                    <div class="service-content">
-                        <h4 class="heading-4">{{feature.title}}</h4>
-                        <p>{{feature.description}}</p>
-                    </div>
-                </div>
-                </div>
-               {% endfor %}
+              <div class="col-md-12">
+              <div class="features-swiper-container">
+                  <div class="swiper-wrapper">
+                    {% for feature in site.data.features %}
+                      <div class="swiper-slide service-box">
+                          <div class="service-logo"><img src="{{feature.image}}" alt="{{feature.title}}" /></div>
+                          <div class="service-content">
+                              <h4 class="heading-4">{{feature.title}}</h4>
+                              <p>{{feature.description}}</p>
+                          </div>
+                      </div>
+                    {% endfor %}
+                  </div>
+               </div>
             </div>
         </div>
     </div>

@@ -1533,7 +1533,7 @@ input[type='submit'] {
 10. Apps Screenshot Area
 
 ============================================== */
-.swiper-slide img {
+.swiper-container .swiper-slide img {
   width: 100%; }
 
 .screenshot-list {
@@ -1559,10 +1559,10 @@ input[type='submit'] {
   color: #041e49;
   margin: 0; }
 
-.swiper-slide {
+swiper-container .swiper-slide {
   margin: 15px 0; }
 
-.swiper-slide-active {
+swiper-container .swiper-slide-active {
   box-shadow: 0 0 10px 0 rgba(25, 100, 227, 0.1); }
 
 /* ==============================================

@@ -25,12 +25,6 @@
 - title: Intégrations
   description: Contact direct grâce aux intégrations avec vos outils collaboratifs existants.
   image: assets/icons/link.png
-- title: App Mobile
-  description: Votre annuaire vivant 100% à vos couleurs sur tous les smartphones.
-  image: assets/icons/mobile-phone.png
-- title: Site web
-  description: Votre annuaire vivant accessible sur tous les ordinateurs.
-  image: assets/icons/desktop.png
 - title: Dashboard admin
   description: Suivez l'usage et explorez les compétences vivantes dans votre entreprise.
   image: assets/icons/chart.png
@@ -43,3 +37,9 @@
 - title: En construction...
   description: C'est avec vous que nous développons Wingzy.
   image: assets/icons/building-construction.png
+- title: Site web
+  description: Votre annuaire vivant accessible sur tous les ordinateurs.
+  image: assets/icons/desktop.png
+- title: App Mobile
+  description: Votre annuaire vivant 100% à vos couleurs sur tous les smartphones.
+  image: assets/icons/mobile-phone.png
