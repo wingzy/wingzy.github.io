@@ -16,7 +16,7 @@ twitter_username: wingzy_com
 github_username:  wingzy
 logo: "/assets/images/wingzy_logo.png"
 
-cover_image: "/assets/social/wingzy_cover.jpg"
+cover_image: "/assets/social/wingzy_banner_rs.png"
 
 permalink: "/:title"
 # Build settings
