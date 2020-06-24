@@ -1542,9 +1542,8 @@ input[type='submit'] {
     padding-left: 30px;
     margin-bottom: 15px; }
     .screenshot-list li:before {
-      font-family: "Font Awesome 5 Free";
       font-weight: 900;
-      content: "\f068";
+      content: "\0025B6";
       position: absolute;
       left: 0;
       color: #ff0018; }
