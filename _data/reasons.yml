@@ -1,12 +1,12 @@
-- title: Gagner du temps
-  description: "Augmenter l'efficience : actionner les expertises, éviter les redondances et réduire les risques."
+- title: Performance
+  description: Actionner les bonnes compétence et connaissances sur le terrain en temps réel.
   image: assets/icons/hammer-and-wrench.png
-- title: Créer le lien
-  description: Rapprocher tous les collaborateurs à travers les équipes, les départements, les entités, les villes, les pays...
+- title: Cohésion
+  description: Rapprocher les collaborateurs par l'entraide à travers l'organisation.
   image: assets/icons/handshake.png
-- title: Engager l'humain
-  description: Révéler la diversité des compétences de tous les collaborateurs, augmenter leur mise en oeuvre et valoriser leur impact.
+- title: Engagement
+  description: Reconnaître et mettre en oeuvre les compétences et connaissances de tous les collaborateurs.
   image: assets/icons/raised-fist.png
-- title: Piloter et développer
-  description: Explorer l'offre et la demande des compétences d'aujourd'hui pour construire les compétences de demain.
+- title: Développement
+  description: Piloter les compétences disponibles ou en tension, les connaissances visibles ou tacites.
   image: assets/icons/rocket.png

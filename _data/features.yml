@@ -1,23 +1,29 @@
-- title: Déploiement viral
+- title: Déploiement P2P
   description: Wingzy se déploie de pair-à-pair grâce à l'invitation en 1 clic.
   image: assets/icons/high-voltage.png
-- title: Compétences sur-mesure
+- title: Ontologie sur-mesure
   description: <strong>Vous</strong> choisissez les familles de compétences impactantes pour votre activité.
-  image: assets/icons/pencil.png
-- title: Moteur de recherche
-  description: Recherche instantanée par nom, rôle, équipe, compétences, expériences...
+  image: assets/icons/brain.png
+- title: Recherche instantanée
+  description: Recherche fulltext par nom, rôle, équipe, compétences, expériences...
   image: assets/icons/loupe.png
 - title: Machine learning
-  description: Notre IA apprend vos compétences terrain grâce à vos collaborateurs.
+  description: Notre IA apprend les compétences terrain de vos collaborateurs.
   image: assets/icons/robot.png
-- title: Suggestions
+- title: Assistance intelligente
   description: Notre IA suggère les compétences pertinentes lors de la création de profil.
   image: assets/icons/speech-balloo.png
+- title: Matching de compétences
+  description: Notre IA associe les collaborateurs compétents aux questions posées.
+  image: assets/icons/direct-hit.png
 - title: Correction de la saisie
   description: Notre IA consolide les synonymes et corrige les fautes de frappes.
   image: assets/icons/ab.png
+- title: Reconnaissance entre pairs
+  description: Qualification des compétence selon les retours terrain de pair à pair.
+  image: assets/icons/handshake.png
 - title: Multilingue
-  description: App ET compétences accessibles dans n'importe quelle langue.
+  description: App ET compétences accessibles dans toutes les langues de votre entreprise.
   image: assets/icons/globe.png
 - title: Géolocalisation
   description: Navigation et recherche des collaborateurs sur une carte géographique.
@@ -25,7 +31,7 @@
 - title: Intégrations
   description: Contact direct grâce aux intégrations avec vos outils collaboratifs existants.
   image: assets/icons/link.png
-- title: Dashboard admin
+- title: Tableau de bord
   description: Suivez l'usage et explorez les compétences vivantes dans votre entreprise.
   image: assets/icons/chart.png
 - title: RGPD
@@ -34,12 +40,15 @@
 - title: Authentification
   description: Intégration à vos systèmes ou identification par domaine email.
   image: assets/icons/lock.png
-- title: En construction...
-  description: C'est avec vous que nous développons Wingzy.
+- title: Co-construction
+  description: C'est avec vous et pour vous que nous développons Wingzy.
   image: assets/icons/building-construction.png
-- title: Site web
-  description: Votre annuaire vivant accessible sur tous les ordinateurs.
+- title: App Web
+  description: Wingzy est accessible sur tous les ordinateurs.
   image: assets/icons/desktop.png
 - title: App Mobile
-  description: Votre annuaire vivant 100% à vos couleurs sur tous les smartphones.
+  description: Wingzy est accessible sur tous les smartphones.
   image: assets/icons/mobile-phone.png
+- title: Marque blanche
+  description: Une app 100% à votre image pour renforcer votre marque employeur.
+  image: assets/icons/superhero.png
