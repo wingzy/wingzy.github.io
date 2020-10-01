@@ -6,10 +6,10 @@
 
 # Site settings
 
-title: "Wingzy"
+title: "Wingzy · Bring people and answers together"
 email: "contact@wingzy.com"
-description: "Donnez vie à vos compétences. L'app Wingzy actionne vos talents et crée le lien à travers votre entreprise. Notre promesse est simple : Trouvez de l'aide > Gagnez du temps > Dites merci !"
-keywords: talents skills compétences activation collaborative app software logiciel saas hr rh human humain ressources resouces engagement
+description: "Accélérez votre entreprise. Renforcez votre collectif. Wingzy relie les collaborateurs pour que ceux qui ont des questions trouvent vite ceux qui ont les réponses."
+keywords: talents skills compétences activation collaborative app software logiciel saas hr rh human humain ressources resouces engagement cohésion
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wingzy.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: wingzy_com
