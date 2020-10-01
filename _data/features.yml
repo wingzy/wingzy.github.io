@@ -32,13 +32,13 @@
   description: Contact direct grâce aux intégrations avec vos outils collaboratifs existants.
   image: assets/icons/link.png
 - title: Tableau de bord
-  description: Suivez l'usage et explorez les compétences vivantes dans votre entreprise.
+  description: Explorez et pilotez les compétences et connaissances échangées dans votre entreprise.
   image: assets/icons/chart.png
 - title: RGPD
   description: Découvrez <a href="https://wingzy.com/fr/protectingYourData">notre charte de protection des données personnelles</a> exemplaire.
   image: assets/icons/shield.png
 - title: Authentification
-  description: Intégration à vos systèmes ou identification par domaine email.
+  description: Intégration à vos systèmes ou identification par domaines email.
   image: assets/icons/lock.png
 - title: Co-construction
   description: C'est avec vous et pour vous que nous développons Wingzy.
