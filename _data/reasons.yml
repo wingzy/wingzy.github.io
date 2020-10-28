@@ -1,12 +1,12 @@
 - title: Performance
-  description: Utiliser les bonnes compétence et connaissances au bon moment même à distance.
-  image: assets/icons/hammer-and-wrench.png
-- title: Cohésion
-  description: Rapprocher les collaborateurs par l'entraide à travers l'entreprise, les métiers, les équipes...
-  image: assets/icons/handshake.png
-- title: Engagement
-  description: Reconnaître et actionner la diversité des compétences et connaissances pour tous les collaborateurs.
-  image: assets/icons/raised-fist.png
-- title: Développement
-  description: Construire l'intelligence collective et piloter le développement des compétences de demain.
+  description: Reliez vite les collaborateurs qui ont des questions à ceux qui ont les réponses.
   image: assets/icons/rocket.png
+- title: Engagement
+  description: Reconnaissez et actionnez la diversité de tous talents pour tous les collaborateurs.
+  image: assets/icons/raised-fist.png
+- title: Cohésion
+  description: Rapprochez les bonnes personnes au bon moment à travers l’entreprise.
+  image: assets/icons/handshake.png
+- title: Développement
+  description: Capitalisez l'intelligence collective et développez les compétences de demain.
+  image: assets/icons/brain.png
