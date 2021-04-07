@@ -6,10 +6,10 @@
 
 # Site settings
 
-title: "Wingzy · Bring people and answers together"
+title: "Wingzy · Ask for the moon"
 email: "contact@wingzy.com"
-description: "Accélérez votre entreprise. Renforcez votre collectif. Wingzy relie les collaborateurs pour que ceux qui ont des questions trouvent vite ceux qui ont les réponses."
-keywords: talents skills compétences activation collaborative app software logiciel saas hr rh human humain ressources resouces engagement cohésion
+description: "Spark questions. Spread Answers. Skyrocket Knowledge. <br/>Wingzy is the Question & Answers engine for high-intelligence enterprises."
+keywords: knowledge management collective  intelligence community learning entreprise apprenante KM
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wingzy.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: wingzy_com
@@ -57,7 +57,7 @@ pagination:
   tag: ''
   # Optional, the default locale to use, omit to disable (depends on a field 'locale' to be specified in the posts,
   # in reality this can be any value, suggested are the Microsoft locale-codes (e.g. en_US, en_GB) or simply the ISO-639 language code )
-  locale: ''
+  locale: 'en-UK'
  # Optional,omit or set both before and after to zero to disable.
  # Controls how the pagination trail for the paginated pages look like.
   trail:
