@@ -7,47 +7,26 @@
 - title: Instant search
   description: Find people and answers by name, location, team, projects, topics, skills...
   image: assets/icons/loupe.png
-- title: Machine learning
-  description: Our AI grows and adapts to your teams needs & skills.
-  image: assets/icons/robot.png
-- title: Skills wizard
-  description: Our AI suggests the pertinent hashtags for each person.
-  image: assets/icons/speech-balloo.png
 - title: Skills matching
+  description: Our AI matches each person with the pertinent skills, expertise & knowhow.
+  image: assets/icons/speech-balloo.png
+- title: Question matching
   description: Our AI matches each questions with the people most able to answer.
   image: assets/icons/direct-hit.png
-- title: Spell checking
-  description: Our AI consolidates synonyms and fixes typos.
-  image: assets/icons/ab.png
 - title: Peer recognition
-  description: Qualify knowledge & skills just by saying "thank you".
+  description: Qualify knowledge & skills just by saying <strong>thank you</strong>.
   image: assets/icons/handshake.png
 - title: Multilingual
-  description: App, profiles and Q&A available in all your enterprises languages.
+  description: App, profiles and Q&A available in all your organisation languages.
   image: assets/icons/globe.png
 - title: Geolocation
   description: Browse your organisation teams & people on a map.
   image: assets/icons/pin.png
-- title: Integrations
-  description: Pull data from, and redirect users towards, your favorite tools.
-  image: assets/icons/link.png
-- title: Dashboard
-  description: Monitor & capitalize knowledge supply & demand.
-  image: assets/icons/chart.png
-- title: GDPR
-  description: Discover <a href="https://wingzy.com/en/protectingYourData">our exemplary privacy charter</a>.
+- title: GDPR Hero
+  description: We <a href="https://wingzy.com/en/protectingYourData">protect users data</a> by mission.
   image: assets/icons/shield.png
-- title: Authentification
-  description: Integrate to your internal SSO or use email domain auth.
-  image: assets/icons/lock.png
-- title: Co-build
-  description: We build your instance and ontology together to fit your needs.
-  image: assets/icons/building-construction.png
-- title: Web App
-  description: Access your Q&A app on Firefox, Chrome, Edge and Safari.
-  image: assets/icons/desktop.png
-- title: Mobile App
-  description: Instal your Q&A app on Android & iOS.
+- title: Web & Mobile
+  description: Access your Q&A app on desktop & mobile.
   image: assets/icons/mobile-phone.png
 - title: White label
   description: Your brand in your colleagues pockets, not ours.
