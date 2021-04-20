@@ -8,10 +8,10 @@
 
 title: "Wingzy · Ask for the moon"
 email: "contact@wingzy.com"
-description: "Spark questions, spread answers, secure knowledge. Build a Knowledge Network accross your enterprise with Wingzy."
-keywords: knowledge management collective  intelligence community learning entreprise apprenante KM
+description: "Spark questions, spread knowledge, skyrocket performance. Build a Knowledge Network accross your enterprise with Wingzy."
+keywords: knowledge management collective intelligence community learning entreprise apprenante KM
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://wingzy.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://home.wingzy.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: wingzy_com
 github_username:  wingzy
 logo: "/assets/images/wingzy_logo.png"
